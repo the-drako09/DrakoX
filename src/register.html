@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Register - DrakoX</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+   <link rel="stylesheet" href="./css/slantedlines.css">
+    <link rel="stylesheet" href="./css/navbuttons.css">
+    <link rel="stylesheet" href="./css/scrollbar.css">
+</head>
+<body class="bg-[#f2f2f2] text-black">
+
+  <!-- HEADER -->
+  <header class="bg-white border-b border-gray-300">
+    <div class="max-w-7xl mx-auto flex justify-between items-center px-6 py-4">
+      <div class="border px-8 py-2 font-bold border-black border-2">DX</div>
+      <nav class="text-sm flex gap-6">
+        <a href="index.html"class="nav-link">Home</a>
+        <a href="about.html"class="nav-link">About</a>
+        <a href="projects.html"class="nav-link">Projects</a>
+        <a href="login.html"class="nav-link">Login</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO STRIP -->
+  <section class="slanted h-[19vh] flex items-center px-10 border-2 border-black">
+    <h1 class="text-8xl font-bold">REGISTER</h1>
+  </section>
+
+  <!-- REGISTER FORM -->
+  <main class="max-w-md mx-auto py-16 px-6">
+
+    <div class="border border-2 border-black p-8 space-y-6 bg-white ">
+
+      <div>
+        <label class="text-sm block mb-1">Full Name</label>
+        <input type="text" class="w-full border border-gray-300 px-3 py-2 text-sm focus:outline-none" />
+      </div>
+
+      <div>
+        <label class="text-sm block mb-1">Email</label>
+        <input type="email" class="w-full border border-gray-300 px-3 py-2 text-sm focus:outline-none" />
+      </div>
+
+      <div>
+        <label class="text-sm block mb-1">Password</label>
+        <input type="password" class="w-full border border-gray-300 px-3 py-2 text-sm focus:outline-none" />
+      </div>
+
+      <div>
+        <label class="text-sm block mb-1">Confirm Password</label>
+        <input type="password" class="w-full border border-gray-300 px-3 py-2 text-sm focus:outline-none" />
+      </div>
+
+      <button class="w-full border border-black py-2 text-sm font-bold hover:bg-black hover:text-white transition">
+        CREATE ACCOUNT
+      </button>
+
+      <p class="text-xs text-gray-600 text-center">
+        Already have an account? <a href="login.html" class="underline">Login</a>
+      </p>
+
+    </div>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="slanted py-10 border-2 border-black">
+    <div class="max-w-7xl mx-auto px-6 text-xs">
+      <p>© 2026 DrakoX</p>
+    </div>
+  </footer>
+
+</body>
+</html>
