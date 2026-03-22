@@ -6,7 +6,7 @@ DrakoX is my personal portfolio website showcasing my work in web development, d
 
 ## 🌐 Live Preview
 
-👉 https://your-username.github.io/drako/
+👉 https://github.com/the-drako09/DrakoX/
 
 ---
 
